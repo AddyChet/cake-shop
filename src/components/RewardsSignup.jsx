@@ -1,11 +1,17 @@
 import React from 'react';
 
 const RewardsSignup = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Static form: Log or handle data here if needed (no backend)
+    console.log('Form submitted (prevented default)');
+  };
+
   return (
     <div className="overflow-hidden pt-0 lg:pt-0 pb-5 lg:pb-8">
       <div className="container mx-auto px-4">
         <div 
-          className="text-white overflow-hidden rounded-lg lg:py-30 lg:p-8 p-4 grid lg:grid-cols-2 relative"
+          className="text-white overflow-hidden rounded-lg lg:py-30 lg:p-8 p-10 grid lg:grid-cols-2 relative"
           style={{ backgroundColor: '#862633' }}
         >
           {/* Left Column - Main Heading */}
@@ -30,38 +36,84 @@ const RewardsSignup = () => {
 
             {/* Content Section */}
             <div className="relative z-30">
-              <h3 className="text-lg lg:text-xl font-semibold mb-3 lg:mb-5">
-                Are you a bread head? Join our loyalty program for exclusive rewards
-              </h3>
 
-              <div className="text-gray-200 text-sm mb-5">
-                <ul className="space-y-2">
-                  <li>• Receive a Welcome Gift* to enjoy with your next $5+ purchase</li>
-                  <li>• Get $5 of <em>dough*</em> every time you spend $55!</li>
-                  <li>• Enjoy exclusive offers and many other great <em>bread-efits</em>.</li>
-                </ul>
-              </div>
-
-              {/* CTA Button */}
-              <div className="flex flex-wrap gap-3 mt-3 lg:mt-5">
-                <a 
-                  className="inline-block px-6 py-3 rounded-full font-semibold text-center transition-all duration-200 hover:opacity-90"
-                  href="#"
+              {/* Signup Form (Added below original content) */}
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div>
+                  <label htmlFor="name" className="block text-sm font-medium mb-1">
+                    Full Name
+                  </label>
+                  <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    className="w-full px-4 py-2 rounded bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#C1003B]"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium mb-1">
+                    Email Address
+                  </label>
+                  <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    className="w-full px-4 py-2 rounded bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#C1003B]"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium mb-1">
+                    Phone Number
+                  </label>
+                  <input 
+                    type="tel" 
+                    id="phone" 
+                    name="phone" 
+                    className="w-full px-4 py-2 rounded bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#C1003B]"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="dob" className="block text-sm font-medium mb-1">
+                    Date of Birth
+                  </label>
+                  <input 
+                    type="date" 
+                    id="dob" 
+                    name="dob" 
+                    className="w-full px-4 py-2 rounded bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#C1003B]"
+                    required
+                  />
+                </div>
+                <div>
+                  <label htmlFor="address" className="block text-sm font-medium mb-1">
+                    Address
+                  </label>
+                  <textarea 
+                    id="address" 
+                    name="address" 
+                    rows="3"
+                    className="w-full px-4 py-2 rounded bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#C1003B]"
+                    placeholder="Enter your address"
+                    required
+                  ></textarea>
+                </div>
+                <button 
+                  type="submit"
+                  className="inline-block px-6 py-3 rounded-full font-semibold text-center transition-all duration-200 hover:opacity-90 w-full"
                   style={{
                     backgroundColor: '#C1003B',
                     color: '#fff'
                   }}
                 >
-                  <span>Find out more</span>
-                </a>
-              </div>
-
-              {/* Terms & Conditions */}
-              <div className="mt-1 text-white text-xs">
-                <p>
-                  *<a href="#/" className="underline hover:no-underline">T&Cs apply</a>
-                </p>
-              </div>
+                  Sign Up Now
+                </button>
+              </form>
             </div>
           </div>
 

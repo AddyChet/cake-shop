@@ -39,31 +39,31 @@ const DeliveryCTA = () => {
             <p>Whatever suits your schedule! Get it delivered today.</p>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-2 mt-2 justify-center lg:justify-start">
+          <div className="flex flex-row gap-2 mt-2 justify-center lg:justify-start">
             <a 
               href="https://www.zomato.com/" 
-              className="inline-flex items-center justify-center border border-gray-300 rounded-full hover:border-[#C1003B] px-4 py-3 transition-colors duration-200 h-[56px] lg:h-auto"
+              className="inline-flex items-center justify-center  px-4 py-3 transition-colors duration-200 h-[56px] lg:h-auto"
               target="_blank" 
               rel="noopener noreferrer"
             >
               <img 
                 decoding="async" 
                 src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" // Replace with actual Zomato logo URL or import
-                className="h-6 lg:h-8" 
+                className="h-13 lg:h-15" // Bigger on mobile (below lg)
                 alt="Zomato"
               />
             </a>
 
             <a 
               href="https://www.swiggy.com/" 
-              className="inline-flex items-center justify-center border border-gray-300 rounded-full hover:border-[#C1003B] rounded px-4 py-3 transition-colors duration-200 h-[56px] lg:h-auto"
+              className="inline-flex items-center justify-center rounded-full px-4 py-3 transition-colors duration-200 h-[56px] lg:h-auto"
               target="_blank" 
               rel="noopener noreferrer"
             >
               <img 
                 decoding="async" 
                 src={swiggy} 
-                className="h-6 lg:h-8" 
+                className="h-14 lg:h-17" // Bigger on mobile (below lg)
                 alt="Swiggy"
               />
             </a>
