@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Colby Cd1';
+  src: url('/fonts/Colby-CdReg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colby Cd2';
+  src: url('/fonts/Colby-CdRegIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Colby Cd3';
+  src: url('/fonts/Colby-CdLt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colby Cd4';
+  src: url('/fonts/Colby-CdLtIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Colby Cd5';
+  src: url('/fonts/Colby-CdMed.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colby Cd6';
+  src: url('/fonts/Colby-CdMedIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Colby Cd7';
+  src: url('/fonts/Colby-CdBlk.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colby Cd8';
+  src: url('/fonts/Colby-CdBlkIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Colby Cd9';
+  src: url('/fonts/Colby-CdExtLtIt.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Colby Cd10';
+  src: url('/fonts/Colby-CdBld.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Colby Cd11';
+  src: url('/fonts/Colby-CdBldIt.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
