@@ -25,8 +25,8 @@ const LocationCard = () => {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mb-8 mt-10" style={{ color: '#862633' }}>OUR BRANCHES</h1>
-      <div className="grid mb-10 grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto justify-items-center">
+      <h1 className="text-3xl font-bold text-center mb-15 mt-12" style={{ color: '#862633' }}>OUR BRANCHES</h1>
+      <div className="grid mb-25 grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto justify-items-center">
         {locations.map((location, index) => (
           <div 
             key={index} 
