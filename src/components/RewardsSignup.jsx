@@ -17,7 +17,7 @@ const RewardsSignup = () => {
           {/* Left Column - Main Heading */}
           <div className="mb-2 lg:mb-0 relative z-30">
             <h2 className="text-[40px] leading-[1.05] font-bold lg:text-[96px] lg:leading-[1.05]">
-              WANT REWARDS? SIGN UP
+              WANT REWARDS? SIGN UP!
             </h2>
           </div>
 
