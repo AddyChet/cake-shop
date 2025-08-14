@@ -20,6 +20,21 @@ const Footer = () => {
                   </ul>
                 </div>
 
+                {/* Logo Section - Middle (Mobile) */}
+                <div className="flex sm:hidden flex-col">
+                  <div className="flex-shrink-0 mb-3">
+                    <img 
+                      src="/src/assets/logo.png" 
+                      alt="A Piece Of Cake Logo" 
+                      className="h-30 w-auto max-w-[120px] object-contain"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <p className="text-sm font-semibold text-transparent">Crafting Sweet Moments</p>
+                    <p className="text-xs  mt-1 text-transparent">Since 2025</p>
+                  </div>
+                </div>
+
                 {/* Bakery (hidden on mobile, shown on sm+) */}
                 <div className="hidden sm:block">
                   <h4 className="mb-3 text-lg font-bold">Bakery</h4>

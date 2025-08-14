@@ -28,13 +28,13 @@ const Header = () => {
         {/* Desktop Layout */}
         <div className="hidden lg:flex items-center justify-between gap-3 py-2">
           {/* Logo Section */}
-          <div className="w-30 py-2">
+          <div className="lg:w-30 w-60 py-2">
             <a 
               className="block max-w-[156px] mx-auto lg:max-w-[180px] relative" 
               href="#"
             >
               <img 
-
+                className="" 
                 src={logo} 
                 alt="Live Cake" 
                 title="Live Cake"
@@ -190,7 +190,7 @@ const Header = () => {
               href="#"
             >
               <img 
-                className="w-18 h-auto" 
+                className="w-30 h-auto" 
                 src={logo}
                 alt="Live Cake" 
                 title="Live Cake"
