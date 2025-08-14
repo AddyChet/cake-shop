@@ -5,20 +5,20 @@ const LocationCard = () => {
   const locations = [
     {
       outlet: "A Piece Of Cake | Pune | Maharashtra",
-      address: "Pune, Maharashtra (Coordinates: 18.488784, 73.899081)",
-      notes: "New branch location",
+      address: "Shop No.12, SILVER LOKA, Wanwadi, Pune, Maharashtra 411040",
+      notes: "lorem",
       phone: "+91-987654321"
     },
     {
       outlet: "A piece of cake | Pune | Maharashtra",
-      address: "Pune, Maharashtra (Coordinates: 18.4683556, 73.9004922)",
-      notes: "New branch location",
+      address: "Shop No.6, the Peak, opp. to Clover Hill Plaza, NIBM Undri Road, Kondhwa, Pune, Maharashtra 411048",
+      notes: "lorem",
       phone: "+91-987654321"
     },
     {
       outlet: "A piece of cake | Pune | Maharashtra",
-      address: "Pune, Maharashtra (Coordinates: 18.4683556, 73.9004922)",
-      notes: "New branch location",
+      address: "Shop No.6, the Peak, opp. to Clover Hill Plaza, lorem ipsum dolor sit amet, Maharashtra 411048",
+      notes: "lorem",
       phone: "+91-987654321"
     }
   ];

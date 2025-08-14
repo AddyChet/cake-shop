@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../assets/logo.jpg"
+import logo from "../assets/logo.png"
 const Header = () => {
   const [isProductsMenuOpen, setIsProductsMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,16 +28,17 @@ const Header = () => {
         {/* Desktop Layout */}
         <div className="hidden lg:flex items-center justify-between gap-3 py-2">
           {/* Logo Section */}
-          <div className="w-20 py-2">
+          <div className="w-30 py-2">
             <a 
-              className="block max-w-[156px] mx-auto lg:max-w-[170px] relative" 
+              className="block max-w-[156px] mx-auto lg:max-w-[180px] relative" 
               href="#"
             >
               <img 
-                className="" 
+
                 src={logo} 
                 alt="Live Cake" 
                 title="Live Cake"
+                
               />
             </a>
           </div>
