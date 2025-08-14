@@ -13,10 +13,10 @@ const Footer = () => {
                 <div className="flex-grow lg:flex-grow-0">
                   <h4 className="mb-3 text-lg font-bold">Company</h4>
                   <ul className="flex flex-col gap-1 text-sm">
-                    <li><a href="/careers/" className="hover:underline">Careers</a></li>
-                    <li><a href="/about-us/" className="hover:underline">About us</a></li>
-                    <li><a href="/blog/" className="hover:underline">Blogs & news</a></li>
-                    <li><a href="/about-us/community/" className="hover:underline">Community</a></li>
+                    <li><a href="#" className="hover:underline">Careers</a></li>
+                    <li><a href="#" className="hover:underline">About us</a></li>
+                    <li><a href="#" className="hover:underline">Blogs & news</a></li>
+                    <li><a href="#" className="hover:underline">Community</a></li>
                   </ul>
                 </div>
 
@@ -24,10 +24,10 @@ const Footer = () => {
                 <div className="hidden sm:block">
                   <h4 className="mb-3 text-lg font-bold">Bakery</h4>
                   <ul className="flex flex-col gap-1 text-sm">
-                    <li><a href="/products/" className="hover:underline">Our products</a></li>
-                    <li><a href="/locations/" className="hover:underline">Locations</a></li>
-                    <li><a href="/recipes/" className="hover:underline">Recipes</a></li>
-                    <li><a href="/franchising/" className="hover:underline">Franchising</a></li>
+                    <li><a href="#" className="hover:underline">Our products</a></li>
+                    <li><a href="#" className="hover:underline">Locations</a></li>
+                    <li><a href="#" className="hover:underline">Recipes</a></li>
+                    <li><a href="#" className="hover:underline">Franchising</a></li>
                   </ul>
                 </div>
 
@@ -35,10 +35,10 @@ const Footer = () => {
                 <div className="flex-shrink-0">
                   <h4 className="mb-3 text-lg font-bold">Support</h4>
                   <ul className="flex flex-col gap-1 text-sm">
-                    <li><a href="/faqs/" className="hover:underline">FAQs</a></li>
-                    <li><a href="/contact-us/" className="hover:underline">Contact us</a></li>
-                    <li><a href="/dough-getters/" className="hover:underline">Dough Getters</a></li>
-                    <li><a href="/security-awareness/" className="hover:underline">Security awareness</a></li>
+                    <li><a href="#" className="hover:underline">FAQs</a></li>
+                    <li><a href="#" className="hover:underline">Contact us</a></li>
+                    <li><a href="#" className="hover:underline">Dough Getters</a></li>
+                    <li><a href="#" className="hover:underline">Security awareness</a></li>
                   </ul>
                 </div>
               </div>
@@ -56,7 +56,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/bakersdelight/" target="_blank" rel="noopener" className="hover:opacity-80">
+                    <a href="#" target="_blank" rel="noopener" className="hover:opacity-80">
                       <svg width="12" height="25" viewBox="0 0 12 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3.5 25H7.77273V13.8184H11.0909L11.6364 9.375H7.77273V6.29883C7.77273 5.61523 7.86364 5.07812 8.13636 4.73633C8.40909 4.3457 9 4.15039 9.81818 4.15039H12V0.195312C11.1818 0.0976562 10.0909 0 8.81818 0C7.18182 0 5.90909 0.537109 4.95455 1.5625C3.95455 2.58789 3.5 4.00391 3.5 5.85938V9.375H0V13.8184H3.5V25Z" fill="currentColor"></path>
                       </svg>
@@ -64,7 +64,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/BakersDelight" target="_blank" rel="noopener" className="hover:opacity-80">
+                    <a href="#" target="_blank" rel="noopener" className="hover:opacity-80">
                       <svg width="27" height="17" viewBox="0 0 27 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M26.456 2.65625C26.6538 3.45312 26.8516 4.69271 26.9506 6.28646L27 8.5L26.9506 10.7135C26.8516 12.3958 26.6538 13.5911 26.456 14.388C26.2582 14.9193 25.9615 15.362 25.5659 15.7161C25.1209 16.1146 24.6264 16.3802 24.033 16.513C23.1429 16.7344 21.1648 16.8672 18 16.9557L13.5 17L9 16.9557C5.83517 16.8672 3.80769 16.7344 2.96703 16.513C2.37363 16.3802 1.82967 16.1146 1.43407 15.7161C0.989011 15.362 0.692308 14.9193 0.543956 14.388C0.296703 13.5911 0.148352 12.3958 0.0494506 10.7135L0 8.5C0 7.88021 0 7.1276 0.0494506 6.28646C0.148352 4.69271 0.296703 3.45312 0.543956 2.65625C0.692308 2.125 0.989011 1.68229 1.43407 1.28385C1.82967 0.929688 2.37363 0.664062 2.96703 0.486979C3.80769 0.309896 5.83517 0.132812 9 0.0442708L13.5 0L18 0.0442708C21.1648 0.132812 23.1429 0.309896 24.033 0.486979C24.6264 0.664062 25.1209 0.929688 25.5659 1.28385C25.9615 1.68229 26.2582 2.125 26.456 2.65625ZM10.7308 12.1302L17.8022 8.5L10.7308 4.91406V12.1302Z" fill="currentColor"></path>
                       </svg>
@@ -72,7 +72,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.tiktok.com/@bakersdelight" target="_blank" rel="noopener" className="hover:opacity-80">
+                    <a href="#" target="_blank" rel="noopener" className="hover:opacity-80">
                       <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.6023 0C20.4631 0 21 0.536932 21 7.39773V13.6023C21 20.4631 20.4631 21 13.6023 21H7.39773C0.536932 21 0 20.4631 0 13.6023V7.39773C0 0.536932 0.536932 0 7.39773 0H13.6023ZM15.0895 9.56693V7.75807C15.0895 7.75807 14.1335 7.76284 13.3259 7.02307C12.6473 6.40166 12.5909 5.23664 12.5909 5.23664H10.7821C10.7821 5.23664 10.7821 11.4097 10.7821 12.3929C10.7821 13.376 9.92632 13.8853 9.31255 13.8853C8.85007 13.8853 7.79768 13.5226 7.79768 12.3814C7.79768 11.1835 9.00757 10.878 9.324 10.878C9.64043 10.878 9.765 10.9458 9.765 10.9458V9.03668C9.765 9.03668 9.471 9.00852 9.25623 9.00136C7.43066 8.93932 5.92105 10.5778 5.92105 12.3819C5.92105 13.9058 7.1128 15.751 9.29011 15.751C11.6092 15.751 12.6706 13.817 12.6706 12.3933C12.6706 11.3534 12.6706 8.84339 12.6706 8.84339C12.6706 8.84339 13.3379 9.21661 13.8805 9.38605C14.4227 9.55548 15.0895 9.56693 15.0895 9.56693Z" fill="currentColor"></path>
                       </svg>
@@ -137,12 +137,12 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col gap-2 lg:flex-row justify-between items-center">
             <ul className="flex flex-wrap justify-center lg:justify-start items-center gap-2 lg:gap-4">
-              <li><a href="/sitemap/" className="hover:underline">Sitemap</a></li>
-              <li><a href="/privacy-policy/" className="hover:underline">Privacy Policy</a></li>
-              <li><a href="/terms-conditions/" className="hover:underline">Terms & Conditions</a></li>
-              <li><a href="/promotional-terms-conditions/" className="hover:underline">Promotional Terms & Conditions</a></li>
+              <li><a href="#" className="hover:underline">Sitemap</a></li>
+              <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+              <li><a href="#" className="hover:underline">Terms & Conditions</a></li>
+              <li><a href="#" className="hover:underline">Promotional Terms & Conditions</a></li>
             </ul>
-            <div className="text-gray-300">© Live Cake 2025</div>
+            <div className="text-gray-300">© A Piece Of Cake 2025</div>
           </div>
         </div>
       </div>

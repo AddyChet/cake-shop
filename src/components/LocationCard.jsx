@@ -1,24 +1,24 @@
 import React from 'react';
 
 const LocationCard = () => {
-  // Array of locations (original + 2 dummies)
+  // Array of locations (original + 2 dummies + 2 new branches)
   const locations = [
     {
-      outlet: "Live Cake World Cake Shop | Pune | Maharashtra",
-      address: "Shop 15, Survey-75/2 (or 75/2/2B), Sacred Heart Town Building, Wanowrie, Pune, Maharashtra",
-      notes: "Confirmed outlet",
+      outlet: "A Piece Of Cake | Pune | Maharashtra",
+      address: "Pune, Maharashtra (Coordinates: 18.488784, 73.899081)",
+      notes: "New branch location",
       phone: "+91-987654321"
     },
     {
-      outlet: "Little Hearts Society Office | Mumbai | Maharashtra",
-      address: "Jagdamba Bhawan Marg, Shree Siddhivinayak Meera, Undri, Pune, Maharashtra, 411060",
-      notes: "Confirmed outlet",
-      phone: "+91-123456789"
+      outlet: "A piece of cake | Pune | Maharashtra",
+      address: "Pune, Maharashtra (Coordinates: 18.4683556, 73.9004922)",
+      notes: "New branch location",
+      phone: "+91-987654321"
     },
     {
-      outlet: "Live Cake World Cake Shop | Bellagio | Pune | Maharashtra",
-      address: "Shop No 5, Centre Bellagio, Undri, Pune, Maharashtra, 411060",
-      notes: "24/7 service available",
+      outlet: "A piece of cake | Pune | Maharashtra",
+      address: "Pune, Maharashtra (Coordinates: 18.4683556, 73.9004922)",
+      notes: "New branch location",
       phone: "+91-987654321"
     }
   ];
