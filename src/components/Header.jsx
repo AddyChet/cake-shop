@@ -186,11 +186,11 @@ const Header = () => {
           {/* Logo - Center */}
           <div className="flex-grow flex justify-center">
             <a 
-              className="block max-w-[140px] relative" 
+              className="block max-w-[140px] ml-7 relative" 
               href="#"
             >
               <img 
-                className="w-30 h-auto" 
+                className="w-25 h-auto" 
                 src={logo}
                 alt="Live Cake" 
                 title="Live Cake"

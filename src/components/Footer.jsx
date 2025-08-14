@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
                 <div className="flex sm:hidden flex-col">
                   <div className="flex-shrink-0 mb-3">
                     <img 
-                      src="/src/assets/logo.png" 
+                      src={logo}
                       alt="A Piece Of Cake Logo" 
                       className="h-30 w-auto max-w-[120px] object-contain"
                     />
